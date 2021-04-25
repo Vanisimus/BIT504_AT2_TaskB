@@ -3,7 +3,7 @@ import java.awt.Graphics;
 
 public class Board {
 	// grid line width
-	public static final int GRID_WIDTH = 8;
+	public static final int GRID_WIDTH = 16;
 	// grid line half width
 	public static final int GRID_WIDTH_HALF = GRID_WIDTH / 2;
 	
