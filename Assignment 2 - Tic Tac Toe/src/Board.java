@@ -3,7 +3,7 @@ import java.awt.Graphics;
 
 public class Board {
 	// grid line width
-	public static final int GRID_WIDTH = 8;
+	public static final int GRID_WIDTH = 16;
 	// grid line half width
 	public static final int GRID_WIDTH_HALF = GRID_WIDTH / 2;
 	
@@ -31,7 +31,7 @@ public class Board {
 		// Hint: Return false if it is not a draw, return true if there are no empty positions left
 		for (int row = 0; row < GameMain.ROWS; ++row) {
 	         for (int col = 0; col < GameMain.COLS; ++col) {
-	        	 if (cells[row][col].content == Player.Empty) {
+	        	 if (cells[row][col].content == Player.EMPTY) {
 	               return false; // an empty cell found, not a draw, exit
 	            }
 	         }
